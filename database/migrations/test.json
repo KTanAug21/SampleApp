@@ -1,0 +1,1801 @@
+{
+    "offer_type": [
+        {
+            "id": 1,
+            "label": "For rent",
+            "offer": "Rent",
+            "slug": "rent",
+            "selected": false
+        },
+        {
+            "id": 2,
+            "label": "For sale",
+            "offer": "Buy",
+            "slug": "buy",
+            "selected": true
+        }
+    ],
+    "categories": [
+        {
+            "id": 9999,
+            "label": "Any",
+            "slug": "any",
+            "selected": false
+        },
+        {
+            "id": 22,
+            "label": "Apartment",
+            "slug": "apartment",
+            "selected": false
+        },
+        {
+            "id": 2,
+            "label": "Commercial",
+            "slug": "commercial",
+            "selected": false
+        },
+        {
+            "id": 33,
+            "label": "Condominium",
+            "slug": "condominium",
+            "selected": false
+        },
+        {
+            "id": 15,
+            "label": "House",
+            "slug": "house",
+            "selected": false
+        },
+        {
+            "id": 11,
+            "label": "Land",
+            "slug": "land",
+            "selected": true
+        }
+    ],
+    "bathrooms": [
+        {
+            "id": 1,
+            "label": "1",
+            "slug": "1",
+            "selected": false
+        },
+        {
+            "id": 2,
+            "label": "2",
+            "slug": "2",
+            "selected": false
+        },
+        {
+            "id": 3,
+            "label": "3",
+            "slug": "3",
+            "selected": false
+        },
+        {
+            "id": 4,
+            "label": "4",
+            "slug": "4",
+            "selected": false
+        },
+        {
+            "id": 5,
+            "label": "5+",
+            "slug": "5+",
+            "selected": false
+        }
+    ],
+    "bedrooms": [
+        {
+            "id": 1,
+            "label": "1",
+            "slug": "1",
+            "selected": false
+        },
+        {
+            "id": 2,
+            "label": "2",
+            "slug": "2",
+            "selected": false
+        },
+        {
+            "id": 3,
+            "label": "3",
+            "slug": "3",
+            "selected": false
+        },
+        {
+            "id": 4,
+            "label": "4",
+            "slug": "4",
+            "selected": false
+        },
+        {
+            "id": 5,
+            "label": "5+",
+            "slug": "5+",
+            "selected": false
+        }
+    ],
+    "sub_categories": {
+        "22": [
+            {
+                "id": 25,
+                "label": "Penthouse",
+                "slug": "penthouse",
+                "selected": false
+            },
+            {
+                "id": 26,
+                "label": "Loft",
+                "slug": "loft",
+                "selected": false
+            },
+            {
+                "id": 29,
+                "label": "Apartments",
+                "slug": "apartments",
+                "selected": false
+            },
+            {
+                "id": 91,
+                "label": "Room",
+                "slug": "room-1",
+                "selected": false
+            },
+            {
+                "id": 92,
+                "label": "Bedspace",
+                "slug": "bedspace",
+                "selected": false
+            }
+        ],
+        "2": [
+            {
+                "id": 9,
+                "label": "Retail",
+                "slug": "retail",
+                "selected": false
+            },
+            {
+                "id": 10,
+                "label": "Offices",
+                "slug": "offices",
+                "selected": false
+            },
+            {
+                "id": 45,
+                "label": "Building",
+                "slug": "building",
+                "selected": false
+            },
+            {
+                "id": 48,
+                "label": "Warehouse",
+                "slug": "warehouse",
+                "selected": false
+            },
+            {
+                "id": 67,
+                "label": "Serviced Office",
+                "slug": "serviced-office",
+                "selected": false
+            },
+            {
+                "id": 94,
+                "label": "Coworking Space",
+                "slug": "coworking",
+                "selected": false
+            }
+        ],
+        "33": [
+            {
+                "id": 34,
+                "label": "Loft",
+                "slug": "loft-1",
+                "selected": false
+            },
+            {
+                "id": 35,
+                "label": "Studio",
+                "slug": "studio",
+                "selected": false
+            },
+            {
+                "id": 38,
+                "label": "Penthouse",
+                "slug": "penthouse-1",
+                "selected": false
+            },
+            {
+                "id": 39,
+                "label": "Other",
+                "slug": "other-4",
+                "selected": false
+            },
+            {
+                "id": 70,
+                "label": "Condotel",
+                "slug": "dormitory",
+                "selected": false
+            }
+        ],
+        "15": [
+            {
+                "id": 19,
+                "label": "Townhouse",
+                "slug": "townhouse",
+                "selected": false
+            },
+            {
+                "id": 21,
+                "label": "Single-family House",
+                "slug": "single-family-house",
+                "selected": false
+            },
+            {
+                "id": 62,
+                "label": "Beach House",
+                "slug": "beach-house",
+                "selected": false
+            },
+            {
+                "id": 95,
+                "label": "Villas",
+                "slug": "villas",
+                "selected": false
+            }
+        ],
+        "11": [
+            {
+                "id": 40,
+                "label": "Beach lot",
+                "slug": "beach-lot",
+                "selected": false
+            },
+            {
+                "id": 41,
+                "label": "Commercial Lot",
+                "slug": "commercial-lot",
+                "selected": false
+            },
+            {
+                "id": 42,
+                "label": "Memorial",
+                "slug": "memorial-lot",
+                "selected": false
+            },
+            {
+                "id": 55,
+                "label": "Residential Lot",
+                "slug": "residential-lot",
+                "selected": false
+            },
+            {
+                "id": 90,
+                "label": "Agricultural Lot",
+                "slug": "agricutural-lot",
+                "selected": false
+            },
+            {
+                "id": 93,
+                "label": "Parking Lot",
+                "slug": "parking",
+                "selected": false
+            }
+        ]
+    },
+    "amenities": {
+        "apartment": [
+            {
+                "id": 122,
+                "label": "Alarm System",
+                "slug": "alarm-system",
+                "selected": false
+            },
+            {
+                "id": 123,
+                "label": "Built-in wardrobes",
+                "slug": "built-in-wardrobes",
+                "selected": false
+            },
+            {
+                "id": 124,
+                "label": "Gym",
+                "slug": "gym",
+                "selected": false
+            },
+            {
+                "id": 125,
+                "label": "Floorboards",
+                "slug": "floorboards",
+                "selected": false
+            },
+            {
+                "id": 126,
+                "label": "Broadband internet available",
+                "slug": "broadband-internet-available",
+                "selected": false
+            },
+            {
+                "id": 127,
+                "label": "Pay TV access",
+                "slug": "pay-tv-access",
+                "selected": false
+            },
+            {
+                "id": 128,
+                "label": "Ducted cooling",
+                "slug": "ducted-cooling",
+                "selected": false
+            },
+            {
+                "id": 129,
+                "label": "Air conditioning",
+                "slug": "air-conditioning",
+                "selected": false
+            },
+            {
+                "id": 134,
+                "label": "Wi-Fi",
+                "slug": "wi-fi",
+                "selected": false
+            },
+            {
+                "id": 133,
+                "label": "Study room",
+                "slug": "study-room",
+                "selected": false
+            },
+            {
+                "id": 132,
+                "label": "Lounge",
+                "slug": "lounge",
+                "selected": false
+            },
+            {
+                "id": 131,
+                "label": "Entertainment room",
+                "slug": "entertainment-room",
+                "selected": false
+            },
+            {
+                "id": 130,
+                "label": "Central air conditioning",
+                "slug": "central-air-conditioning",
+                "selected": false
+            },
+            {
+                "id": 137,
+                "label": "Swimming pool",
+                "slug": "swimming-pool",
+                "selected": false
+            },
+            {
+                "id": 138,
+                "label": "Tennis court",
+                "slug": "tennis-court",
+                "selected": false
+            },
+            {
+                "id": 139,
+                "label": "Balcony",
+                "slug": "balcony",
+                "selected": false
+            },
+            {
+                "id": 140,
+                "label": "Fully fenced",
+                "slug": "fully-fenced",
+                "selected": false
+            },
+            {
+                "id": 144,
+                "label": "Parks",
+                "slug": "parks",
+                "selected": false
+            },
+            {
+                "id": 143,
+                "label": "Jogging path",
+                "slug": "jogging-path",
+                "selected": false
+            },
+            {
+                "id": 142,
+                "label": "Sports facilities",
+                "slug": "sports-facilities",
+                "selected": false
+            },
+            {
+                "id": 141,
+                "label": "Basketball court",
+                "slug": "basketball-court",
+                "selected": false
+            }
+        ],
+        "commercial": [
+            {
+                "id": 160,
+                "label": "Alarm System",
+                "slug": "alarm-system",
+                "selected": false
+            },
+            {
+                "id": 161,
+                "label": "Broadband internet available",
+                "slug": "broadband-internet-available",
+                "selected": false
+            },
+            {
+                "id": 159,
+                "label": "Air conditioning",
+                "slug": "air-conditioning",
+                "selected": false
+            },
+            {
+                "id": 173,
+                "label": "Pantry",
+                "slug": "pantry",
+                "selected": false
+            },
+            {
+                "id": 167,
+                "label": "Fire alarm",
+                "slug": "fire-alarm",
+                "selected": false
+            },
+            {
+                "id": 170,
+                "label": "Intercom",
+                "slug": "intercom",
+                "selected": false
+            },
+            {
+                "id": 171,
+                "label": "Lobby",
+                "slug": "lobby",
+                "selected": false
+            },
+            {
+                "id": 162,
+                "label": "CCTV",
+                "slug": "cctv",
+                "selected": false
+            },
+            {
+                "id": 168,
+                "label": "Fire exits",
+                "slug": "fire-exits",
+                "selected": false
+            },
+            {
+                "id": 166,
+                "label": "Elevators",
+                "slug": "elevators",
+                "selected": false
+            },
+            {
+                "id": 174,
+                "label": "Reception area",
+                "slug": "reception-area",
+                "selected": false
+            },
+            {
+                "id": 163,
+                "label": "Central Air Conditioning",
+                "slug": "central-air-conditioning",
+                "selected": false
+            },
+            {
+                "id": 172,
+                "label": "Meeting room",
+                "slug": "meeting-room",
+                "selected": false
+            },
+            {
+                "id": 165,
+                "label": "Driver\u0027s quarter",
+                "slug": "drivers-quarter",
+                "selected": false
+            },
+            {
+                "id": 164,
+                "label": "Column-free design",
+                "slug": "column-free-design",
+                "selected": false
+            },
+            {
+                "id": 175,
+                "label": "Fitness center",
+                "slug": "fitness-center",
+                "selected": false
+            },
+            {
+                "id": 169,
+                "label": "Function room",
+                "slug": "function-room",
+                "selected": false
+            },
+            {
+                "id": 176,
+                "label": "Smoke detector",
+                "slug": "smoke-detector",
+                "selected": false
+            },
+            {
+                "id": 178,
+                "label": "Wi-fi",
+                "slug": "wi-fi",
+                "selected": false
+            },
+            {
+                "id": 177,
+                "label": "Ensuite",
+                "slug": "ensuite",
+                "selected": false
+            },
+            {
+                "id": 182,
+                "label": "24-hour security",
+                "slug": "24-hour-security",
+                "selected": false
+            },
+            {
+                "id": 183,
+                "label": "Helipad",
+                "slug": "helipad",
+                "selected": false
+            }
+        ],
+        "condominium": [
+            {
+                "id": 273,
+                "label": "Alarm System",
+                "slug": "alarm-system",
+                "selected": false
+            },
+            {
+                "id": 306,
+                "label": "Intercom",
+                "slug": "intercom",
+                "selected": false
+            },
+            {
+                "id": 289,
+                "label": "Ensuite",
+                "slug": "ensuite",
+                "selected": false
+            },
+            {
+                "id": 280,
+                "label": "Built-in wardrobes",
+                "slug": "built-in-wardrobes",
+                "selected": false
+            },
+            {
+                "id": 299,
+                "label": "Gym",
+                "slug": "gym",
+                "selected": false
+            },
+            {
+                "id": 295,
+                "label": "Floorboards",
+                "slug": "floorboards",
+                "selected": false
+            },
+            {
+                "id": 279,
+                "label": "Broadband internet available",
+                "slug": "broadband-internet-available",
+                "selected": false
+            },
+            {
+                "id": 316,
+                "label": "Pay TV access",
+                "slug": "pay-tv-access",
+                "selected": false
+            },
+            {
+                "id": 315,
+                "label": "Open fireplace",
+                "slug": "open-fireplace",
+                "selected": false
+            },
+            {
+                "id": 324,
+                "label": "Split-system heating",
+                "slug": "split-system-heating",
+                "selected": false
+            },
+            {
+                "id": 302,
+                "label": "Hydronic heating",
+                "slug": "hydronic-heating",
+                "selected": false
+            },
+            {
+                "id": 272,
+                "label": "Air conditioning",
+                "slug": "air-conditioning",
+                "selected": false
+            },
+            {
+                "id": 298,
+                "label": "Gas heating",
+                "slug": "gas-heating",
+                "selected": false
+            },
+            {
+                "id": 328,
+                "label": "Wi-Fi",
+                "slug": "wi-fi",
+                "selected": false
+            },
+            {
+                "id": 325,
+                "label": "Study room",
+                "slug": "study-room",
+                "selected": false
+            },
+            {
+                "id": 310,
+                "label": "Lounge",
+                "slug": "lounge",
+                "selected": false
+            },
+            {
+                "id": 290,
+                "label": "Entertainment room",
+                "slug": "entertainment-room",
+                "selected": false
+            },
+            {
+                "id": 283,
+                "label": "Central air conditioning",
+                "slug": "central-air-conditioning",
+                "selected": false
+            },
+            {
+                "id": 304,
+                "label": "Indoor spa",
+                "slug": "indoor-spa",
+                "selected": false
+            },
+            {
+                "id": 296,
+                "label": "Function Room",
+                "slug": "function-room",
+                "selected": false
+            },
+            {
+                "id": 319,
+                "label": "Sauna",
+                "slug": "sauna",
+                "selected": false
+            },
+            {
+                "id": 323,
+                "label": "Social hall",
+                "slug": "social-hall",
+                "selected": false
+            },
+            {
+                "id": 322,
+                "label": "Smoke detector",
+                "slug": "smoke-detector",
+                "selected": false
+            },
+            {
+                "id": 321,
+                "label": "Sky lounge",
+                "slug": "sky-lounge",
+                "selected": false
+            },
+            {
+                "id": 276,
+                "label": "Bar",
+                "slug": "bar",
+                "selected": false
+            },
+            {
+                "id": 320,
+                "label": "Shower rooms",
+                "slug": "shower-rooms-1",
+                "selected": false
+            },
+            {
+                "id": 301,
+                "label": "Health Club",
+                "slug": "health-club",
+                "selected": false
+            },
+            {
+                "id": 318,
+                "label": "Reception Area",
+                "slug": "reception-area",
+                "selected": false
+            },
+            {
+                "id": 288,
+                "label": "Elevators",
+                "slug": "elevators",
+                "selected": false
+            },
+            {
+                "id": 294,
+                "label": "Fitness center",
+                "slug": "fitness-center",
+                "selected": false
+            },
+            {
+                "id": 309,
+                "label": "Lobby",
+                "slug": "lobby",
+                "selected": false
+            },
+            {
+                "id": 292,
+                "label": "Fire exits",
+                "slug": "fire-exits",
+                "selected": false
+            },
+            {
+                "id": 313,
+                "label": "Meeting rooms",
+                "slug": "meeting-rooms",
+                "selected": false
+            },
+            {
+                "id": 281,
+                "label": "Business Center",
+                "slug": "business-center",
+                "selected": false
+            },
+            {
+                "id": 465,
+                "label": "Fire Alarm",
+                "slug": "fire-alarm",
+                "selected": false
+            },
+            {
+                "id": 464,
+                "label": "Daycare Center",
+                "slug": "daycare-center",
+                "selected": false
+            },
+            {
+                "id": 307,
+                "label": "Jacuzzi",
+                "slug": "jacuzzi",
+                "selected": false
+            },
+            {
+                "id": 29,
+                "label": "CCTV",
+                "slug": "cctv",
+                "selected": false
+            },
+            {
+                "id": 25,
+                "label": "Gymnasium",
+                "slug": "gymnasium",
+                "selected": false
+            },
+            {
+                "id": 278,
+                "label": "Billiards table",
+                "slug": "billiards-table",
+                "selected": false
+            },
+            {
+                "id": 466,
+                "label": "Fire sprinkler system",
+                "slug": "fire-sprinkler-system",
+                "selected": false
+            },
+            {
+                "id": 274,
+                "label": "Amphitheater",
+                "slug": "amphitheater",
+                "selected": false
+            },
+            {
+                "id": 284,
+                "label": "Clinic",
+                "slug": "clinic",
+                "selected": false
+            },
+            {
+                "id": 311,
+                "label": "Maid\u0027s room",
+                "slug": "maids-room",
+                "selected": false
+            },
+            {
+                "id": 275,
+                "label": "Balcony",
+                "slug": "balcony-1",
+                "selected": false
+            },
+            {
+                "id": 31,
+                "label": "Utility room",
+                "slug": "utility-room",
+                "selected": false
+            },
+            {
+                "id": 317,
+                "label": "Powder room",
+                "slug": "powder-room",
+                "selected": false
+            },
+            {
+                "id": 35,
+                "label": "Indoor Pool",
+                "slug": "indoor-pool",
+                "selected": false
+            },
+            {
+                "id": 314,
+                "label": "Multi-Purpose Hall",
+                "slug": "multi-purpose-hall",
+                "selected": false
+            },
+            {
+                "id": 297,
+                "label": "Game Room",
+                "slug": "game-room",
+                "selected": false
+            },
+            {
+                "id": 308,
+                "label": "Laundry Area",
+                "slug": "laundry-area",
+                "selected": false
+            },
+            {
+                "id": 305,
+                "label": "Indoor Tree House",
+                "slug": "indoor-tree-house",
+                "selected": false
+            },
+            {
+                "id": 326,
+                "label": "Theater",
+                "slug": "theater",
+                "selected": false
+            },
+            {
+                "id": 285,
+                "label": "Club House",
+                "slug": "club-house",
+                "selected": false
+            },
+            {
+                "id": 287,
+                "label": "Drying Area",
+                "slug": "drying-area-1",
+                "selected": false
+            },
+            {
+                "id": 277,
+                "label": "Basement Parking",
+                "slug": "basement-parking",
+                "selected": false
+            },
+            {
+                "id": 312,
+                "label": "Maids Room",
+                "slug": "maids-room-1",
+                "selected": false
+            },
+            {
+                "id": 333,
+                "label": "Carport",
+                "slug": "carport",
+                "selected": false
+            },
+            {
+                "id": 340,
+                "label": "Garage",
+                "slug": "garage",
+                "selected": false
+            },
+            {
+                "id": 352,
+                "label": "Open car spaces",
+                "slug": "open-car-spaces",
+                "selected": false
+            },
+            {
+                "id": 360,
+                "label": "Remote garage",
+                "slug": "remote-garage",
+                "selected": false
+            },
+            {
+                "id": 362,
+                "label": "Secure parking",
+                "slug": "secure-parking",
+                "selected": false
+            },
+            {
+                "id": 368,
+                "label": "Swimming pool",
+                "slug": "swimming-pool",
+                "selected": false
+            },
+            {
+                "id": 369,
+                "label": "Tennis court",
+                "slug": "tennis-court",
+                "selected": false
+            },
+            {
+                "id": 331,
+                "label": "Balcony",
+                "slug": "balcony",
+                "selected": false
+            },
+            {
+                "id": 336,
+                "label": "Deck",
+                "slug": "deck",
+                "selected": false
+            },
+            {
+                "id": 338,
+                "label": "Fully fenced",
+                "slug": "fully-fenced",
+                "selected": false
+            },
+            {
+                "id": 356,
+                "label": "Parks",
+                "slug": "parks",
+                "selected": false
+            },
+            {
+                "id": 348,
+                "label": "Jogging path",
+                "slug": "jogging-path",
+                "selected": false
+            },
+            {
+                "id": 366,
+                "label": "Sports facilities",
+                "slug": "sports-facilities",
+                "selected": false
+            },
+            {
+                "id": 332,
+                "label": "Basketball court",
+                "slug": "basketball-court",
+                "selected": false
+            },
+            {
+                "id": 355,
+                "label": "Parking lot",
+                "slug": "parking-lot",
+                "selected": false
+            },
+            {
+                "id": 341,
+                "label": "Garden",
+                "slug": "garden",
+                "selected": false
+            },
+            {
+                "id": 345,
+                "label": "Health Club",
+                "slug": "health-club",
+                "selected": false
+            },
+            {
+                "id": 330,
+                "label": "Badminton court",
+                "slug": "badminton-court",
+                "selected": false
+            },
+            {
+                "id": 364,
+                "label": "Shower rooms",
+                "slug": "shower-rooms",
+                "selected": false
+            },
+            {
+                "id": 349,
+                "label": "Landscaped Garden",
+                "slug": "landscaped-garden",
+                "selected": false
+            },
+            {
+                "id": 359,
+                "label": "Pool bar",
+                "slug": "pool-bar",
+                "selected": false
+            },
+            {
+                "id": 354,
+                "label": "Outdoor spa",
+                "slug": "outdoor-spa",
+                "selected": false
+            },
+            {
+                "id": 334,
+                "label": "Clubhouse",
+                "slug": "clubhouse",
+                "selected": false
+            },
+            {
+                "id": 351,
+                "label": "Multi-purpose lawn",
+                "slug": "multi-purpose-lawn-1",
+                "selected": false
+            },
+            {
+                "id": 357,
+                "label": "Playground",
+                "slug": "playground",
+                "selected": false
+            },
+            {
+                "id": 342,
+                "label": "Gazebo",
+                "slug": "gazebo",
+                "selected": false
+            },
+            {
+                "id": 347,
+                "label": "Jacuzzi",
+                "slug": "jacuzzi-1",
+                "selected": false
+            },
+            {
+                "id": 61,
+                "label": "24-hour security",
+                "slug": "24-hour-security",
+                "selected": false
+            },
+            {
+                "id": 51,
+                "label": "Open space",
+                "slug": "open-space",
+                "selected": false
+            },
+            {
+                "id": 23,
+                "label": "Function area",
+                "slug": "function-area",
+                "selected": false
+            },
+            {
+                "id": 28,
+                "label": "Helipad",
+                "slug": "helipad",
+                "selected": false
+            },
+            {
+                "id": 68,
+                "label": "Drying area",
+                "slug": "drying-area",
+                "selected": false
+            },
+            {
+                "id": 224,
+                "label": "Spa",
+                "slug": "spa",
+                "selected": false
+            },
+            {
+                "id": 19,
+                "label": "Library",
+                "slug": "library-1",
+                "selected": false
+            },
+            {
+                "id": 12,
+                "label": "Sauna",
+                "slug": "sauna-1",
+                "selected": false
+            },
+            {
+                "id": 291,
+                "label": "Study area",
+                "slug": "study-area",
+                "selected": false
+            },
+            {
+                "id": 286,
+                "label": "Shops",
+                "slug": "shops",
+                "selected": false
+            },
+            {
+                "id": 69,
+                "label": "Gazebos",
+                "slug": "gazebos",
+                "selected": false
+            },
+            {
+                "id": 27,
+                "label": "Pond",
+                "slug": "pond",
+                "selected": false
+            },
+            {
+                "id": 293,
+                "label": "Golf Area",
+                "slug": "golf-area",
+                "selected": false
+            },
+            {
+                "id": 6,
+                "label": "Courtyard",
+                "slug": "courtyard",
+                "selected": false
+            }
+        ],
+        "house": [
+            {
+                "id": 5,
+                "label": "Alarm System",
+                "slug": "alarm-system",
+                "selected": false
+            },
+            {
+                "id": 17,
+                "label": "Ensuite",
+                "slug": "ensuite",
+                "selected": false
+            },
+            {
+                "id": 424,
+                "label": "Built-in wardrobes",
+                "slug": "built-in-wardrobes",
+                "selected": false
+            },
+            {
+                "id": 428,
+                "label": "Ducted vacuum system",
+                "slug": "ducted-vacuum-system",
+                "selected": false
+            },
+            {
+                "id": 433,
+                "label": "Gym",
+                "slug": "gym",
+                "selected": false
+            },
+            {
+                "id": 432,
+                "label": "Floorboards",
+                "slug": "floorboards",
+                "selected": false
+            },
+            {
+                "id": 423,
+                "label": "Broadband internet available",
+                "slug": "broadband-internet-available",
+                "selected": false
+            },
+            {
+                "id": 437,
+                "label": "Pay TV access",
+                "slug": "pay-tv-access",
+                "selected": false
+            },
+            {
+                "id": 431,
+                "label": "Fireplace",
+                "slug": "fireplace",
+                "selected": false
+            },
+            {
+                "id": 427,
+                "label": "Ducted cooling",
+                "slug": "ducted-cooling",
+                "selected": false
+            },
+            {
+                "id": 441,
+                "label": "Split-system heating",
+                "slug": "split-system-heating",
+                "selected": false
+            },
+            {
+                "id": 420,
+                "label": "Air conditioning",
+                "slug": "air-conditioning",
+                "selected": false
+            },
+            {
+                "id": 426,
+                "label": "Central Air Conditioning",
+                "slug": "central-air-conditioning",
+                "selected": false
+            },
+            {
+                "id": 444,
+                "label": "Wi-Fi",
+                "slug": "wi-fi",
+                "selected": false
+            },
+            {
+                "id": 443,
+                "label": "Study room",
+                "slug": "study-room",
+                "selected": false
+            },
+            {
+                "id": 435,
+                "label": "Lounge",
+                "slug": "lounge",
+                "selected": false
+            },
+            {
+                "id": 429,
+                "label": "Entertainment room",
+                "slug": "entertainment-room",
+                "selected": false
+            },
+            {
+                "id": 422,
+                "label": "Bar",
+                "slug": "bar",
+                "selected": false
+            },
+            {
+                "id": 434,
+                "label": "Jacuzzi",
+                "slug": "jacuzzi",
+                "selected": false
+            },
+            {
+                "id": 439,
+                "label": "Sauna",
+                "slug": "sauna",
+                "selected": false
+            },
+            {
+                "id": 430,
+                "label": "Fire Alarm",
+                "slug": "fire-alarm",
+                "selected": false
+            },
+            {
+                "id": 425,
+                "label": "CCTV",
+                "slug": "cctv",
+                "selected": false
+            },
+            {
+                "id": 440,
+                "label": "Smoke detector",
+                "slug": "smoke-detector",
+                "selected": false
+            },
+            {
+                "id": 436,
+                "label": "Maid\u0027s room",
+                "slug": "maids-room",
+                "selected": false
+            },
+            {
+                "id": 14,
+                "label": "Driver\u0027s room",
+                "slug": "drivers-room",
+                "selected": false
+            },
+            {
+                "id": 438,
+                "label": "Powder room",
+                "slug": "powder-room",
+                "selected": false
+            },
+            {
+                "id": 421,
+                "label": "Attic",
+                "slug": "attic",
+                "selected": false
+            },
+            {
+                "id": 33,
+                "label": "Terrace",
+                "slug": "terrace",
+                "selected": false
+            },
+            {
+                "id": 7,
+                "label": "Balcony",
+                "slug": "balcony-1",
+                "selected": false
+            },
+            {
+                "id": 442,
+                "label": "Storage Room",
+                "slug": "storage-room",
+                "selected": false
+            },
+            {
+                "id": 9,
+                "label": "Basement",
+                "slug": "basement",
+                "selected": false
+            },
+            {
+                "id": 445,
+                "label": "",
+                "slug": "attribute_option-indoor_features:",
+                "selected": false
+            },
+            {
+                "id": 37,
+                "label": "Library",
+                "slug": "library",
+                "selected": false
+            },
+            {
+                "id": 36,
+                "label": "Maids room",
+                "slug": "maids-room-1",
+                "selected": false
+            },
+            {
+                "id": 45,
+                "label": "Carport",
+                "slug": "carport",
+                "selected": false
+            },
+            {
+                "id": 49,
+                "label": "Garage",
+                "slug": "garage",
+                "selected": false
+            },
+            {
+                "id": 58,
+                "label": "Open car spaces",
+                "slug": "open-car-spaces",
+                "selected": false
+            },
+            {
+                "id": 460,
+                "label": "Remote garage",
+                "slug": "remote-garage",
+                "selected": false
+            },
+            {
+                "id": 63,
+                "label": "Secure parking",
+                "slug": "secure-parking",
+                "selected": false
+            },
+            {
+                "id": 66,
+                "label": "Swimming pool",
+                "slug": "swimming-pool",
+                "selected": false
+            },
+            {
+                "id": 67,
+                "label": "Tennis court",
+                "slug": "tennis-court",
+                "selected": false
+            },
+            {
+                "id": 450,
+                "label": "Balcony",
+                "slug": "balcony",
+                "selected": false
+            },
+            {
+                "id": 47,
+                "label": "Courtyard",
+                "slug": "courtyard",
+                "selected": false
+            },
+            {
+                "id": 48,
+                "label": "Fully fenced",
+                "slug": "fully-fenced",
+                "selected": false
+            },
+            {
+                "id": 458,
+                "label": "Parking lot",
+                "slug": "parking-lot",
+                "selected": false
+            },
+            {
+                "id": 54,
+                "label": "Jogging path",
+                "slug": "jogging-path",
+                "selected": false
+            },
+            {
+                "id": 65,
+                "label": "Sports facilities",
+                "slug": "sports-facilities",
+                "selected": false
+            },
+            {
+                "id": 451,
+                "label": "Basketball court",
+                "slug": "basketball-court",
+                "selected": false
+            },
+            {
+                "id": 60,
+                "label": "Parks",
+                "slug": "parks",
+                "selected": false
+            },
+            {
+                "id": 456,
+                "label": "Landscaped Garden",
+                "slug": "landscaped-garden",
+                "selected": false
+            },
+            {
+                "id": 453,
+                "label": "Garden",
+                "slug": "garden",
+                "selected": false
+            },
+            {
+                "id": 455,
+                "label": "Jacuzzi",
+                "slug": "jacuzzi-1",
+                "selected": false
+            },
+            {
+                "id": 449,
+                "label": "24-hour security",
+                "slug": "24-hour-security",
+                "selected": false
+            },
+            {
+                "id": 457,
+                "label": "Multi-purpose lawn",
+                "slug": "multi-purpose-lawn-1",
+                "selected": false
+            },
+            {
+                "id": 452,
+                "label": "Clubhouse",
+                "slug": "clubhouse",
+                "selected": false
+            },
+            {
+                "id": 459,
+                "label": "Playground",
+                "slug": "playground",
+                "selected": false
+            },
+            {
+                "id": 454,
+                "label": "Gazebos",
+                "slug": "gazebos",
+                "selected": false
+            },
+            {
+                "id": 42,
+                "label": "Badminton court",
+                "slug": "badminton-court",
+                "selected": false
+            },
+            {
+                "id": 52,
+                "label": "Helipad",
+                "slug": "helipad",
+                "selected": false
+            },
+            {
+                "id": 461,
+                "label": "Volleyball Court",
+                "slug": "volleyball-court",
+                "selected": false
+            },
+            {
+                "id": 55,
+                "label": "Lanai",
+                "slug": "lanai",
+                "selected": false
+            },
+            {
+                "id": 64,
+                "label": "Shower Rooms",
+                "slug": "shower-rooms",
+                "selected": false
+            },
+            {
+                "id": 462,
+                "label": "Open space",
+                "slug": "open-space",
+                "selected": false
+            },
+            {
+                "id": 70,
+                "label": "Function area",
+                "slug": "function-area",
+                "selected": false
+            }
+        ]
+    },
+    "price": {
+        "min": 0,
+        "max": 0,
+        "selected": false
+    },
+    "building_size": {
+        "min": 0,
+        "max": 0,
+        "selected": false
+    },
+    "land_size": {
+        "min": 0,
+        "max": 0,
+        "selected": false
+    },
+    "foreclosures": [
+        {
+            "id": 1,
+            "label": "Include",
+            "slug": "include",
+            "selected": true
+        },
+        {
+            "id": 2,
+            "label": "Exclude",
+            "slug": "exclude",
+            "selected": false
+        },
+        {
+            "id": 3,
+            "label": "Only",
+            "slug": "only",
+            "selected": false
+        }
+    ],
+    "short_term": [
+        {
+            "id": 1,
+            "label": "Include",
+            "slug": "include",
+            "selected": true
+        },
+        {
+            "id": 2,
+            "label": "Exclude",
+            "slug": "exclude",
+            "selected": false
+        },
+        {
+            "id": 3,
+            "label": "Only",
+            "slug": "only",
+            "selected": false
+        }
+    ],
+    "currency": [
+        {
+            "id": 1,
+            "label": "PHP",
+            "slug": "php",
+            "selected": true
+        },
+        {
+            "id": 2,
+            "label": "USD",
+            "slug": "usd",
+            "selected": false
+        }
+    ],
+    "filter_suggestions": {
+        "price": {
+            "php": {
+                "buy": [
+                    {
+                        "id": 1,
+                        "label": "Below 2.5M",
+                        "min": "0",
+                        "max": "2500000"
+                    },
+                    {
+                        "id": 2,
+                        "label": "2.5M - 5M",
+                        "min": "2500000",
+                        "max": "5000000"
+                    },
+                    {
+                        "id": 3,
+                        "label": "5M - 7.5M",
+                        "min": "5000000",
+                        "max": "7500000"
+                    },
+                    {
+                        "id": 4,
+                        "label": "7.5M - 10M",
+                        "min": "7500000",
+                        "max": "10000000"
+                    },
+                    {
+                        "id": 5,
+                        "label": "10M - 15M",
+                        "min": "10000000",
+                        "max": "15000000"
+                    },
+                    {
+                        "id": 6,
+                        "label": "15M and 20M",
+                        "min": "15000000",
+                        "max": "20000000"
+                    },
+                    {
+                        "id": 7,
+                        "label": "20M and 30M",
+                        "min": "20000000",
+                        "max": "30000000"
+                    },
+                    {
+                        "id": 8,
+                        "label": "30M and Above",
+                        "min": "30000000",
+                        "max": "0"
+                    }
+                ],
+                "rent": [
+                    {
+                        "id": 1,
+                        "label": "Below 10k",
+                        "min": "0",
+                        "max": "10000"
+                    },
+                    {
+                        "id": 2,
+                        "label": "10k - 20k",
+                        "min": "10000",
+                        "max": "20000"
+                    },
+                    {
+                        "id": 3,
+                        "label": "20K - 30K",
+                        "min": "20000",
+                        "max": "30000"
+                    },
+                    {
+                        "id": 4,
+                        "label": "30K - 50K",
+                        "min": "30000",
+                        "max": "50000"
+                    },
+                    {
+                        "id": 5,
+                        "label": "50K - 100K",
+                        "min": "50000",
+                        "max": "100000"
+                    },
+                    {
+                        "id": 6,
+                        "label": "100K - 200K",
+                        "min": "100000",
+                        "max": "200000"
+                    },
+                    {
+                        "id": 7,
+                        "label": "200K and Above",
+                        "min": "200000",
+                        "max": "0"
+                    }
+                ]
+            },
+            "usd": {
+                "buy": [],
+                "rent": []
+            }
+        },
+        "building_size": [
+            {
+                "id": 1,
+                "label": "Below 39sqm",
+                "min": "0",
+                "max": "39"
+            },
+            {
+                "id": 2,
+                "label": "40sqm - 88sqm",
+                "min": "40",
+                "max": "88"
+            },
+            {
+                "id": 3,
+                "label": "89sqm - 161sqm",
+                "min": "89",
+                "max": "161"
+            },
+            {
+                "id": 4,
+                "label": "162sqm - 237sqm",
+                "min": "162",
+                "max": "237"
+            },
+            {
+                "id": 5,
+                "label": "238sqm - 339sqm",
+                "min": "238",
+                "max": "339"
+            },
+            {
+                "id": 6,
+                "label": "340sqm - 534sqm",
+                "min": "340",
+                "max": "534"
+            },
+            {
+                "id": 7,
+                "label": "535sqm - 1021sqm",
+                "min": "535",
+                "max": "1021"
+            },
+            {
+                "id": 8,
+                "label": "1021sqm and Above",
+                "min": "1021",
+                "max": "0"
+            }
+        ],
+        "land_size": [
+            {
+                "id": 1,
+                "label": "Below 60sqm",
+                "min": "0",
+                "max": "60"
+            },
+            {
+                "id": 2,
+                "label": "61sqm - 86sqm",
+                "min": "61",
+                "max": "86"
+            },
+            {
+                "id": 3,
+                "label": "87sqm - 119sqm",
+                "min": "87",
+                "max": "119"
+            },
+            {
+                "id": 4,
+                "label": "120sqm - 179sqm",
+                "min": "120",
+                "max": "179"
+            },
+            {
+                "id": 5,
+                "label": "180sqm - 255sqm",
+                "min": "180",
+                "max": "255"
+            },
+            {
+                "id": 6,
+                "label": "256sqm - 391sqm",
+                "min": "256",
+                "max": "391"
+            },
+            {
+                "id": 7,
+                "label": "392sqm - 999sqm",
+                "min": "392",
+                "max": "999"
+            },
+            {
+                "id": 8,
+                "label": "1000sqm and Above",
+                "min": "1000",
+                "max": "0"
+            }
+        ]
+    }
+}
